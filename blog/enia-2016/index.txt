@@ -1,0 +1,22 @@
+.. title: ENIA 2016
+.. slug: enia-2016
+.. date: 2016-06-04 20:07:22 UTC-03:00
+.. tags: enia, ggsr, ppp
+.. category: 
+.. link: 
+.. description: 2º Encuentro Nacional de Investigadores de Agrimensura
+.. type: text
+
+.. class:: lead
+
+   2º Encuentro Nacional de Investigadores de Agrimensura
+
+El 2 y 3 de junio se llevó a cabo el `ENIA 2016 <http://fich.unl.edu.ar/enia2016/>`_ en Santa Fe, en el `Foro Cultural <http://www.unl.edu.ar/categories/view/foro_cultural_universitario>`_ de la UNL, que queda al lado de la Biblioteca Dr. José Gálvez.
+
+Presentamos, con parte del `GGSR <http://www.fceia.unr.edu.ar/gps/>`_, nuestra `Calculadora PPP <http://www.fceia.unr.edu.ar/gps/pppcalc/>`_. Todo salió excelente. A seguir trabajando.
+
+.. image:: /img/enia-pppcalc.jpg
+   :alt: Nuestra PPPCalc en el ENIA 2016
+   :target: /img/enia-pppcalc.jpg
+   :align: center
+

@@ -7,34 +7,46 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://quijot.github.io/categories/agrimensura.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://quijot.github.io/categories/enia.xml</loc>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/galvez.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://quijot.github.io/categories/ggsr.xml</loc>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/mathjax.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/medicion.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/ordenamiento-territorial.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://quijot.github.io/categories/ppp.xml</loc>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/precision.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/rss.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/sitemap.xml</loc>
-  <lastmod>2016-05-29T16:58:00Z</lastmod>
+  <lastmod>2016-06-11T00:00:00Z</lastmod>
  </sitemap>
 </sitemapindex>
