@@ -129,9 +129,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archivo"),
-        ("/categories/", "Etiquetas"),
-        ("/rss.xml", "Canal RSS"),
+        ("/archive.html", '<i class="fa fa-folder-open"></i> Archivo'),
+        ("/categories/", '<i class="fa fa-tags"></i> Etiquetas'),
+        ("/rss.xml", '<i class="fa fa-rss"></i> RSS'),
+        ("https://github.com/quijot/", '<i class="fa fa-github"></i> Proyectos'),
+        ("mailto:santiago@pestarini.com.ar?subject=Hola", '<i class="fa fa-envelope"></i> Contacto'),
     ),
 }
 
@@ -169,14 +171,14 @@ THEME_COLOR = '#5670d4'
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "story.tmpl"),
-    ("pages/*.txt", "pages", "story.tmpl"),
-    ("pages/*.html", "pages", "story.tmpl"),
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
 )
 
 
