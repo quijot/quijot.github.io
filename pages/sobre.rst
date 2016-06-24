@@ -15,4 +15,5 @@ Algunos de mis trabajos:
   - `Mapa TR <http://www.fceia.unr.edu.ar/gps/mapatr/>`_
   - `PPPCalc <http://www.fceia.unr.edu.ar/gps/pppcalc/>`_
 
+- `Relevamiento planialtimétrico en Nogoyá, Entre Ríos (2009) </nogoya.svg>`_ (Presentación)
 

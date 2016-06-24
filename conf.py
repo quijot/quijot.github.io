@@ -134,6 +134,7 @@ NAVIGATION_LINKS = {
         ("/rss.xml", '<i class="fa fa-rss"></i> RSS'),
         ("https://github.com/quijot/", '<i class="fa fa-github"></i> Proyectos'),
         ("mailto:santiago@pestarini.com.ar?subject=Hola", '<i class="fa fa-envelope"></i> Contacto'),
+        ("/about/", '<i class="fa fa-user"></i> Sobre mí'),
     ),
 }
 
