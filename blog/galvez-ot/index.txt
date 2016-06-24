@@ -1,7 +1,7 @@
 .. title: El Ordenamiento Territorial de Gálvez
 .. slug: galvez-ot
 .. date: 2016-05-01 19:54:53 UTC-03:00
-.. tags: ordenamiento territorial, galvez, mathjax
+.. tags: ordenamiento territorial, gálvez, legislación, ordenanzas, mathjax
 .. category: 
 .. link: 
 .. description: Un análisis del Cuerpo Normativo en el contexto local, regional y nacional
