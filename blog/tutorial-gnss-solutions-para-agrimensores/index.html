@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="es">
+<head>
+<meta charset="utf-8">
+<base href="http://quijot.github.io/blog/tutorial-gnss-solutions-para-agrimensores/">
+<meta name="description" content="Tutorial de GNSS Solutions para Agrimensores">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial de GNSS Solutions™ para Agrimensores | Santiago Pestarini</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="http://quijot.github.io/blog/tutorial-gnss-solutions-para-agrimensores/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="description" itemprop="description" content="Tutorial de GNSS Solutions para Agrimensores">
+<meta name="author" content="Santiago Pestarini">
+<link rel="next" href="../la-medida/" title="La medida" type="text/html">
+<meta property="og:site_name" content="Santiago Pestarini">
+<meta property="og:title" content="Tutorial de GNSS Solutions™ para Agrimensores">
+<meta property="og:url" content="http://quijot.github.io/blog/tutorial-gnss-solutions-para-agrimensores/">
+<meta property="og:description" content="Tutorial de GNSS Solutions para Agrimensores">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2012-07-24T11:00:00Z">
+<meta property="article:tag" content="agrimensura">
+<meta property="article:tag" content="gnss solutions">
+<meta property="article:tag" content="gps">
+<meta property="article:tag" content="medicón">
+<meta property="article:tag" content="software">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-default navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://quijot.github.io/">
+
+                <span id="blog-title">Santiago Pestarini</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../archive.html"><i class="fa fa-folder-open"></i> Archivo</a>
+                </li>
+<li>
+<a href="../../categories/"><i class="fa fa-tags"></i> Etiquetas</a>
+                </li>
+<li>
+<a href="../../rss.xml"><i class="fa fa-rss"></i> RSS</a>
+                </li>
+<li>
+<a href="https://github.com/quijot/"><i class="fa fa-github"></i> Proyectos</a>
+                </li>
+<li>
+<a href="mailto:santiago@pestarini.com.ar?subject=Hola"><i class="fa fa-envelope"></i> Contacto</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.txt" id="sourcelink">Código fuente</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Tutorial de GNSS Solutions™ para Agrimensores</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                    Santiago Pestarini
+            </span></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2012-07-24T11:00:00Z" itemprop="datePublished" title="2012-07-24 11:00">2012-07-24 11:00</time></a></p>
+            
+        <p class="sourceline"><a href="index.txt" id="sourcelink">Código fuente</a></p>
+
+                <meta name="description" itemprop="description" content="Tutorial de GNSS Solutions para Agrimensores">
+</div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<div class="contents topic" id="indice">
+<p class="topic-title first">Índice</p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduccion" id="id1">Introducción</a></li>
+<li><a class="reference internal" href="#recomendaciones" id="id2">Recomendaciones</a></li>
+<li><a class="reference internal" href="#adjuntos-con-este-tutorial" id="id3">Adjuntos con este tutorial</a></li>
+<li>
+<a class="reference internal" href="#relevamiento-georreferenciado" id="id4">Relevamiento georreferenciado</a><ul>
+<li><a class="reference internal" href="#georreferenciacion-de-la-base-de-un-relevamiento-gnss" id="id5">Georreferenciación de la base de un relevamiento GNSS</a></li>
+<li><a class="reference internal" href="#georreferenciacion-del-relevamiento" id="id6">Georreferenciación del relevamiento</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#relevamiento-sin-georreferenciacion" id="id7">Relevamiento sin georreferenciación</a></li>
+<li><a class="reference internal" href="#conversion-de-coordenadas-de-geodesicas-a-una-proyeccion-local" id="id8">Conversión de coordenadas de geodésicas a una proyección local</a></li>
+<li><a class="reference internal" href="#exportacion-de-la-nube-de-puntos-a-un-archivo-dxf" id="id9">Exportación de la nube de puntos a un archivo DXF</a></li>
+<li><a class="reference internal" href="#conversion-de-coordenadas-de-proyeccion-local-a-geodesicas" id="id10">Conversión de coordenadas de proyección local a geodésicas</a></li>
+<li><a class="reference internal" href="#pasaje-de-archivos-de-cualquier-formato-de-ashetch-a-rinex" id="id11">Pasaje de archivos de cualquier formato de Ashetch a RINEX</a></li>
+<li><a class="reference internal" href="#por-hacer" id="id12">Por hacer</a></li>
+</ul>
+</div>
+<div class="section" id="introduccion">
+<h2><a class="toc-backref" href="#id1">Introducción</a></h2>
+<p>Existe un vacío de documentación accesible y didáctica para los profesionales de la agrimensura de una franja etaria en el tema del procesamiento de datos con software y sobre algunas cuestiones técnicas y conceptuales, como la georreferenciación, los sistemas y marcos de referencia, la conversión y transformación de coordenadas.
+El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pueden ser útiles, basadas en mi propia experiencia, para ordenar los pasos y los datos (archivos) que generalmente son necesarios y suficientes para un trabajo de relevamiento GNSS de baja complejidad, utilizando el software <em>GNSS Solutions™</em> de la empresa <em>ashtech™</em>, ya absorbida por <em>Trimble™</em>.</p>
+<!-- TEASER_END -->
+</div>
+<div class="section" id="recomendaciones">
+<h2><a class="toc-backref" href="#id2">Recomendaciones</a></h2>
+<ul class="simple">
+<li>Tener instalada la versión 3.80.8 (o superior) del software, que se puede descargar de <a class="reference external" href="ftp://ftp.ashtech.com/Spectra-precision/Legacy/Land%20Survey/GNSS%20Solutions/software/3.80.8/3.80.8.zip">aquí</a>.</li>
+<li>Se recomienda fuertemente ahondar en conceptos y no quedarse simplemente en aprender mecánicamente los pasos que aquí se sugieren. Si bien muchas veces puede que alcancen a cubrir lo necesario, es seguro que muchísimas otras cualquier pequeño cambio de las condiciones aquí planteadas pueden generar una traba insoslayable si no se comprende con alguna profundidad lo que se está haciendo.</li>
+<li>Para cubrir aspectos conceptuales existe abundante bibliografía. Se recomienda aquí el libro <a class="reference external" href="http://www.fceia.unr.edu.ar/gps/publicaciones/libro_gps.pdf">GPS, Posicionamiento satelital</a> que se puede conseguir en el sitio del <a class="reference external" href="http://www.fceia.unr.edu.ar/gps/">Grupo de Geodesia Satelital Rosario</a> (GGSR) de la UNR, en la sección Publicaciones.</li>
+</ul>
+</div>
+<div class="section" id="adjuntos-con-este-tutorial">
+<h2><a class="toc-backref" href="#id3">Adjuntos con este tutorial</a></h2>
+<p>Se provee una plantilla para cada trabajo con la estructura de carpetas donde ordenar los archivos de observaciones, cad, etc. La misma se muestra a continuación. Es una buena costumbre copiarla en la carpeta de proyectos del GNSS Solutions, generalmente es</p>
+<pre class="code text"><a name="rest_code_62fafdf1348f4c03b409464fdf6e7d18-1"></a>C:\Mis Proyectos
+</pre>
+<p>El archivo <em>leer.txt</em> tiene una explicación de para qué se destina cada carpeta.</p>
+<pre class="code text"><a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-1"></a>_plantilla\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-2"></a>  cad\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-3"></a>  coord\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-4"></a>  mdt\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-5"></a>  observ\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-6"></a>    base\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-7"></a>    ep\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-8"></a>    remoto\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-9"></a>    rinex\
+<a name="rest_code_bd079fc91fbc49a49afad2db8ab5016c-10"></a>  leer.txt
+</pre>
+</div>
+<div class="section" id="relevamiento-georreferenciado">
+<h2><a class="toc-backref" href="#id4">Relevamiento georreferenciado</a></h2>
+<div class="section" id="georreferenciacion-de-la-base-de-un-relevamiento-gnss">
+<h3><a class="toc-backref" href="#id5">Georreferenciación de la base de un relevamiento GNSS</a></h3>
+<ol class="arabic simple">
+<li>Inicie el programa GNSS Solutions.</li>
+<li>Cree un proyecto con un nombre conveniente para designar el trabajo.</li>
+<li>En este ejemplo usaremos el nombre <em>Trabajo</em>.</li>
+<li>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</li>
+<li>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo</em>. Deberá quedar así:</li>
+</ol>
+<pre class="code text"><a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-1"></a>C:\Mis Proyectos\Trabajo\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-2"></a>  cad\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-3"></a>  coord\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-4"></a>  mdt\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-5"></a>  observ\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-6"></a>    base\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-7"></a>    ep\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-8"></a>    remoto\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-9"></a>    rinex\
+<a name="rest_code_3fc0c4a63ea4458c8a2fe5538c3221d8-10"></a>  leer.txt
+</pre>
+<ol class="arabic" start="6">
+<li>
+<p class="first">Descargue los archivos del receptor base y guarde una copia de ellos en <em>Trabajo\observ\base</em>.</p>
+</li>
+<li>
+<p class="first">Descargue los archivos en formato RINEX de la Estación Permanente más cercana o conveniente, por ejemplo UNRO y/o SBAL y/o IGM1 y guarde una copia de los mismos en <em>Trabajo\observ\ep</em>.</p>
+</li>
+<li>
+<p class="first">Vuelva al GNSS Solutions donde le pedía los archivos de observaciones y agregue al proyecto los archivos de observaciones de la base y de la o las EP que ya copió en <em>Trabajo\observ\base</em> y en <em>Trabajo\observ\ep</em>.</p>
+</li>
+<li>
+<p class="first">Defina como <em>Punto de control</em> a la o las EP y corrija sus coordenadas geodésicas según el Marco de referencia adecuado para la georreferenciación (que puede ser PosGAr 2007). Tenga la precaución de introducir la altura de la antena correspondiente a la BASE del relevamiento.</p>
+<blockquote>
+<p>Sirve tener presente que si la base del relevamiento no será usada nuevamente, es decir, no quedó materializada con mojón o estaca o cualquier marca, entonces no es necesario ingresar una altura distinta de cero, esto sólo se utiliza cuando se quiere indicar que el punto de base debe tomarse desde el suelo (mojón o estaca). Pero si el punto no será utilizado posteriormente, entonces es una buena costumbre dejar la altura de la antena de la base en 0.000. Esto significa que el destino (u origen) de los vectores calculados hasta (o desde) la base, serán hasta (o desde) el centro de fase de la antena y no hasta (o desde) el piso.</p>
+</blockquote>
+</li>
+<li>
+<p class="first">Presione <em>Aceptar</em> y a continuación:</p>
+<ol class="loweralpha simple">
+<li>
+<em>Para aplicar y procesar líneas de base</em> (si tiene sólo una EP como punto de control)</li>
+<li>
+<em>Para importar, procesar y ajustar</em> (si tiene más de una EP como punto de control)</li>
+</ol>
+<blockquote>
+<p>Puede presionar <em>Aceptar</em> y luego <em>Para importar</em> y luego reemplazar el <em>ítem a</em> por la tecla <strong>F5</strong> (que procesa las líneas base) y el <em>ítem b</em>, por la sucesión de teclas <strong>F5</strong> primero y <strong>F6</strong> luego (que ajusta la red).</p>
+</blockquote>
+</li>
+<li>
+<p class="first">Ya tiene los vectores procesados y, si tiene más de un punto de control, la red ajustada, lo que significa que la BASE del relevamiento quedó georreferenciada en el Marco de Referencia correspondiente a las coordenadas que haya elegido para las EP. <strong>Copie las coordenadas Latitud, Longitud y Altura elipsóidica de la BASE</strong>, las utilizará en el siguiente proceso, el de georreferenciación del relevamiento.</p>
+</li>
+<li>
+<p class="first">Una forma de verificar la calidad del relevamiento es a través de las solapas <em>Vectores</em> y <em>Puntos</em> y por medio de los distintos informes. Por ejemplo, es buena señal obtener soluciones fijas y confianzas horizontales y de altura dentro de las tolerancias (ver solapas <em>Vectores</em> y <em>Puntos</em>).</p>
+</li>
+<li>
+<p class="first">Cierre el GNSS Solutions.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="georreferenciacion-del-relevamiento">
+<h3><a class="toc-backref" href="#id6">Georreferenciación del relevamiento</a></h3>
+<ol class="arabic simple">
+<li>Inicie el programa GNSS Solutions.</li>
+<li>Cree un proyecto con un nombre conveniente para designar el trabajo. En este ejemplo usaremos el nombre <em>Trabajo2</em>.</li>
+<li>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</li>
+<li>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo2</em>. Deberá quedar así:</li>
+</ol>
+<pre class="code text"><a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-1"></a>C:\Mis Proyectos\Trabajo2\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-2"></a>  cad\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-3"></a>  coord\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-4"></a>  mdt\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-5"></a>  observ\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-6"></a>    base\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-7"></a>    ep\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-8"></a>    remoto\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-9"></a>    rinex\
+<a name="rest_code_6a456fe91c474d5daefc0c858f13a1cd-10"></a>  leer.txt
+</pre>
+<ol class="arabic simple" start="5">
+<li>Descargue los archivos de los receptores base y remoto y guarde una copia de ellos en <em>Trabajo\observ\base</em> y <em>Trabajo\observ\remoto</em>.</li>
+<li>Vuelva al GNSS Solutions donde le pedía los archivos de observaciones y agregue al proyecto los archivos de observaciones de la base y del remoto que ya copió en <em>Trabajo\observ\base</em> y en <em>Trabajo\observ\remoto</em>.</li>
+<li>Defina como <em>Punto de control</em> a la BASE y corrija sus coordenadas geodésicas <strong>según lo obtenido en el proceso de Georreferenciación de la Base</strong> (recuerde las coordenadas que copió en el proceso de georreferenciación de la BASE).</li>
+<li>Presione <em>Aceptar</em> y a continuación <em>Para aplicar y procesar líneas de base</em> (dado que tiene un solo punto de control, la BASE).</li>
+<li>Ya tiene los vectores procesados, lo que significa que el relevamiento quedó georreferenciada en el Marco de Referencia correspondiente a las coordenadas que haya elegido para las EP.</li>
+<li>Una forma de verificar la calidad del relevamiento es a través de las solapas <em>Vectores</em> y <em>Puntos</em> y por medio de los distintos informes. Por ejemplo, es buena señal obtener soluciones fijas y confianzas horizontales y de altura dentro de las tolerancias (ver solapas <em>Vectores</em> y <em>Puntos</em>).</li>
+</ol>
+</div>
+</div>
+<div class="section" id="relevamiento-sin-georreferenciacion">
+<h2><a class="toc-backref" href="#id7">Relevamiento sin georreferenciación</a></h2>
+<ol class="arabic simple">
+<li>Inicie el programa GNSS Solutions.</li>
+<li>Cree un proyecto con un nombre conveniente para designar el trabajo. En este ejemplo usaremos el nombre <em>Trabajo</em>.</li>
+<li>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</li>
+<li>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo</em>. Descargue los archivos de los receptores base y remoto y guarde una copia de ellos en <em>Trabajo\observ\base</em> y <em>Trabajo\observ\remoto</em>.</li>
+<li>Vuelva al GNSS Solutions donde le pedía los archivos de observaciones y agregue al proyecto los archivos de observaciones de la base y del remoto que ya copió en <em>Trabajo\observ\base</em> y en <em>Trabajo\observ\remoto</em>.</li>
+<li>Defina como <em>Punto de control</em> a la BASE (no hace falta corregir sus coordenadas, aunque sí tener en cuenta la altura en el caso de que el punto se quiera volver a usar).</li>
+<li>Presione <em>Aceptar</em> y a continuación <em>Para aplicar y procesar líneas de base</em> (dado que tiene un solo punto de control, la BASE).</li>
+<li>Ya tiene los vectores procesados, lo que significa que el relevamiento quedó procesado.</li>
+<li>Una forma de verificar la calidad del relevamiento es a través de las solapas <em>Vectores</em> y <em>Puntos</em> y por medio de los distintos informes. Por ejemplo, es buena señal obtener soluciones fijas y confianzas horizontales y de altura dentro de las tolerancias (ver solapas <em>Vectores</em> y <em>Puntos</em>).</li>
+</ol>
+</div>
+<div class="section" id="conversion-de-coordenadas-de-geodesicas-a-una-proyeccion-local">
+<h2><a class="toc-backref" href="#id8">Conversión de coordenadas de geodésicas a una proyección local</a></h2>
+<p>Este paso es necesario para poder <em>calcular</em>, por ejemplo, una mensura. Lo que se hace aquí, en definitiva, es llevar la nube de puntos relevados a un sistema XYZ <em>evitando la deformación</em>. Luego, si se requiere, se deberá hacer el proceso inverso para obtener las coordenadas geodésicas a partir de las <em>locales</em></p>
+<ol class="arabic simple">
+<li>Luego de haber procesado los datos del relevamiento, aún con el GNSS Solutions abierto, elija un punto del relevamiento que esté ubicado más o menos en el centro de la nube de puntos (puede ser la BASE del relevamiento o un punto no necesariamente relevado, ubicado aproximadamente en el centro de la nube de puntos).</li>
+<li>Vaya a <strong>Proyecto</strong> → <strong>Editar opciones</strong> → en la solapa <strong>Región</strong>, en <strong>Sistema de referencia espacial</strong>, seleccione <strong>&lt;Nuevo&gt;</strong>.</li>
+<li>Aguarde un instante, se abrirá una nueva ventana donde deberá seleccionar Definir un NUEVO sistema <em>PROYECTADO (ESTE, NORTE, ALTURA)</em>.</li>
+<li>Deje como Datum al elipsoide WGS84. Presione <em>Siguiente</em>.</li>
+<li>Deje como Clase de proyección a Transverse_Mercator. Pero ponga como <tt class="docutils literal">latitude_of_origin</tt> la latitud (aproximada) del punto que seleccionó en el paso 1, y como <tt class="docutils literal">central_meridian</tt> la longitud (aproximada) del mismo punto. Deje los otros parámetros en 1, 0 y 0 si no comprende a qué se refieren. Presione <em>Siguiente</em>.</li>
+<li>Ponga un nombre adecuado al Sistema (es importante recordarlo para la futura conversión).</li>
+</ol>
+</div>
+<div class="section" id="exportacion-de-la-nube-de-puntos-a-un-archivo-dxf">
+<h2><a class="toc-backref" href="#id9">Exportación de la nube de puntos a un archivo DXF</a></h2>
+<p>Para <strong>habilitar la exportación a DXF</strong> debe habilitar las funciones CAD en el menú <strong>Herramientas → Preferencias</strong>, en la solapa <strong>General</strong> marcar <strong>Mostrar funciones CAD</strong>.</p>
+<ol class="arabic simple">
+<li>Seleccione los puntos que desea exportar en un DXF de la nube que se muestra en la <em>Vista de levantamiento</em> (puede ir a <strong>Ventana → Vista de levantamiento</strong>).</li>
+<li>Vaya a <strong>Proyecto → Exportar datos geo. a un archivo</strong>... (o directamente presione F8).</li>
+<li>En la parte izquierda, en <strong>Exportar</strong>, seleccione <strong>Características</strong> y en la parte derecha, en <strong>Formato</strong>, seleccione <strong>Autocad DXF</strong>. Presione <em>Aceptar</em>.</li>
+<li>Se abre una venta de <em>Guardar como</em>, busque la carpeta <em>Trabajo\cad</em>, y tipée un nombre para el DXF. Listo, ya tiene la nube de puntos seleccionada en un DXF lista para abrir desde su programa favorito.</li>
+</ol>
+</div>
+<div class="section" id="conversion-de-coordenadas-de-proyeccion-local-a-geodesicas">
+<h2><a class="toc-backref" href="#id10">Conversión de coordenadas de proyección local a geodésicas</a></h2>
+<p>Este paso es particularmente útil para luego del cálculo de la mensura, donde se tienen las coordenadas de los vértices del polígono resultante en el sistema de proyección local, pero aún no sus coordenadas geodésicas.</p>
+<ol class="arabic simple">
+<li>Inicie el GNSS Solutions.</li>
+<li>Vaya a <strong>Herramientas → Prueba conver</strong>...</li>
+<li>Seleccione de un lado, por ejemplo la izquierda, el sistema de coordenadas geodésicas WGS84, y del otro, el sistema local proyectado que haya guardado en su momento (recuerde paso 6 del proceso de Conversión de coordenadas de geodésicas a una proyección local).</li>
+<li>Ponga del lado del sistema proyectado una por una las coordenadas Este y Norte calculadas en la mensura y presione el botón con la flecha adecuada, así obtendrá las coordenadas geodésicas correspondiente a cada punto (son las que deberá poner en la planilla de georreferenciación para entregar con el plano y el expediente).</li>
+</ol>
+</div>
+<div class="section" id="pasaje-de-archivos-de-cualquier-formato-de-ashetch-a-rinex">
+<h2><a class="toc-backref" href="#id11">Pasaje de archivos de cualquier formato de Ashetch a RINEX</a></h2>
+<p>Este paso puede ser útil para el caso en que se deban entregar con el expediente cuando se requiere georreferenciación en el SCIT de Santa Fe. O para el caso en que se deba asegurar la posibilidad de procesar las observaciones con otros programas.</p>
+<ol class="arabic">
+<li>
+<p class="first">Iniciar el RINEX Converter. (Debe instalarlo con el mismo instalador del GNSS Solutions)</p>
+</li>
+<li>
+<p class="first">Presionar <strong>Add</strong>. Se abre una ventana para seleccionar los archivos. Elija los archivos de la Base, del Remoto y de la o las Estaciones Permanentes (que en su momento copió en <strong>C:\Mis Proyectos\Trabajo\observ\base</strong> y en <strong>Trabajo\observ\remoto</strong> y en <strong>Trabajo\observ\ep</strong>).</p>
+</li>
+<li>
+<p class="first">En dodne dice <strong>Into</strong>, seleccione <em>RINEX Raw Data Files version 2.11</em>.</p>
+<blockquote>
+<p>A menos que comprenda en profundidad las diferencias entre los distintos formatos, con la versión 2.11 se asegurará el buen funcionamiento con casi cualquier software.</p>
+</blockquote>
+</li>
+<li>
+<p class="first">En <strong>In folder</strong>, seleccione como destino la carpeta <em>C:\Mis Proyectos\Trabajo\observ\rinex</em>.</p>
+</li>
+<li>
+<p class="first">Presione <strong>Convert</strong>. Listo, los archivos obtenidos pueden ser copiados a un CD para ser entregados junto al expediente. (Es recomendable, como verificación, realizar todo el procesamiento de nuevo con los archivos RINEX obtenidos y ver que los resultados son los mismos o varían en cantidades despreciables.)</p>
+</li>
+</ol>
+</div>
+<div class="section" id="por-hacer">
+<h2><a class="toc-backref" href="#id12">Por hacer</a></h2>
+<ul class="simple">
+<li>Plantilla para Memoria de georreferenciación (pedida por SCIT)</li>
+<li>Plantilla para Planilla de coordenadas (pedida por SCIT)</li>
+<li>Software de conversión masiva de coordenadas</li>
+</ul>
+</div>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/agrimensura/" rel="tag">agrimensura</a></li>
+            <li><a class="tag p-category" href="../../categories/gnss-solutions/" rel="tag">gnss solutions</a></li>
+            <li><a class="tag p-category" href="../../categories/gps/" rel="tag">gps</a></li>
+            <li><a class="tag p-category" href="../../categories/medicon/" rel="tag">medicón</a></li>
+            <li><a class="tag p-category" href="../../categories/software/" rel="tag">software</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="next">
+                <a href="../la-medida/" rel="next" title="La medida">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:santiago@pestarini.com.ar">Santiago Pestarini</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a>
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/colorbox-i18n/jquery.colorbox-es.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("es");
+    fancydates(2, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>
