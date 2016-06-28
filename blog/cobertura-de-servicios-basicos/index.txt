@@ -1,0 +1,22 @@
+.. title: Cobertura de servicios básicos
+.. slug: cobertura-de-servicios-basicos
+.. date: 2016-06-24 21:01:17 UTC-03:00
+.. tags: draft
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+Un enfoque posible es el acceso a la infraestructura urbana orientado al hogar o a la población, es decir, a las personas que pueden acceder a ella. Los datos se pudieron obtener sólo del Censo 2010 y para los servicios de redes cloacales, de agua potable y de gas natural. Se observa cómo la ciudad de Gálvez supera ampliamente las tasas de cobertura de Coronda, el departamento y la provincia.
+
+En el caso particular del servicio de gas natural, la Ordenanza N.º 1877/1996 da cuenta de la obra Provisión de gas natural a la ciudad de Gálvez que consistió en la construcción del gasoducto Arocena-Gálvez de 6” de diámetro, plantas reductoras de presión correspondientes y la red domiciliaria de un sector determinado en la misma ordenanza. La obra afectó a 5465 parcelas, que representaba como mínimo el 65% de las parcelas existentes en ese momento.
+
+.. chart:: Bar
+   :title: 'Cobertura de servicios básicos por hogar (en %) para Censo 2010'
+   :x_labels: ["Cloacas", "Agua potable", "Gas Natural"]
+
+   'Gálvez',       [85.8, 94.9, 51.8]
+   'Coronda',      [48.1, 79.2, 39.3]
+   'Departamento', [40.5, 87.5, 28.5]
+   'Provincia',    [50.3, 84.4, 48.2]
+
