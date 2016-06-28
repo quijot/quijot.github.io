@@ -1,12 +1,11 @@
 .. title: El Ordenamiento Territorial de Gálvez
-.. slug: galvez-ot
-.. date: 2016-05-19 19:54:53 UTC-03:00
-.. tags: ordenamiento territorial, galvez, mathjax
+.. slug: galvez-ot-completo
+.. date: 2016-05-01 19:54:53 UTC-03:00
+.. tags: ordenamiento territorial, gálvez, legislación, ordenanzas, mathjax, draft
 .. category: 
 .. link: 
 .. description: Un análisis del Cuerpo Normativo en el contexto local, regional y nacional
 .. type: text
-
 
 .. class:: well well-sm pull-right
 
@@ -339,16 +338,9 @@ propuesta en el artículo 4º del Anteproyecto de Ley Nacional de Planificación
 Ordenamiento Territorial, elaborado entre 2009 y 2012 por el Consejo Federal de
 Planificación y Ordenamiento Territorial (CoFePlan):
 
-El Ordenamiento Territorial es una política pública, destinada a orientar el proceso de
-producción social del espacio, mediante la aplicación de medidas que tienen por finalidad
-la mejora de la calidad de vida de la población, a través de su integración social en el
-territorio y el uso y aprovechamiento ambientalmente sustentable y democrático de los
-recursos naturales y culturales.
+    El Ordenamiento Territorial es una política pública, destinada a orientar el proceso de producción social del espacio, mediante la aplicación de medidas que tienen por finalidad la mejora de la calidad de vida de la población, a través de su integración social en el territorio y el uso y aprovechamiento ambientalmente sustentable y democrático de los recursos naturales y culturales.
 
-El Ordenamiento Territorial es la expresión espacial de las políticas económicas,
-sociales, culturales y ecológicas de toda la sociedad, que se llevan a cabo mediante
-determinaciones que orientan el accionar de los agentes privados y públicos sobre el uso
-del suelo.
+    El Ordenamiento Territorial es la expresión espacial de las políticas económicas, sociales, culturales y ecológicas de toda la sociedad, que se llevan a cabo mediante determinaciones que orientan el accionar de los agentes privados y públicos sobre el uso del suelo.
 
 Esta concepción es la más moderna posible, dado que fue hecha teniendo en cuenta los
 lineamientos conceptuales de la Carta Europea de Ordenación del Territorio, la cual, puede
