@@ -1439,10 +1439,7 @@ Un aporte más para el análisis del crecimiento, es el llamado *crecimiento anu
 acumulativo* o *porcentaje uniforme de crecimiento*. Este parámetro refleja en qué
 porcentaje varió la cantidad de habitantes cada año entre dos censos.
 
-Su fórmula es: :math:`P = P_0 (1+k)^n`, es decir, es la misma con la que se calcula un
-interés compuesto, sólo que en este caso la población final es :math:`P`, población
-inicial es :math:`P_0`, porcentaje de crecimiento anual es :math:`k` y cantidad de años
-es :math:`n`. Así, se calculó ese porcentaje entre censo y censo:
+Su fórmula es: :math:`P = P_0 (1+k)^n`, es decir, es la misma con la que se calcula un interés compuesto, sólo que en este caso la población final es :math:`P`, población inicial es :math:`P_0`, porcentaje de crecimiento anual es :math:`k` y cantidad de años es :math:`n`. Así, se calculó ese porcentaje entre censo y censo:
 
 .. math::
 
