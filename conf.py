@@ -230,6 +230,10 @@ DATE_FANCINESS = 2
 # LOCALE_DEFAULT = locale to use for languages not mentioned in LOCALES; if
 # not set the default Nikola mapping is used.
 
+LOCALES = {'es':'es_AR.utf8'}
+LOCALE_FALLBACK = 'es_AR.utf8'
+# LOCALE_DEFAULT = None
+
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
 # Default is:
@@ -858,8 +862,8 @@ COMMENT_SYSTEM_ID = "quijot"
 #          will not be generated for that directory.
 # STORY_INDEX = False
 # Enable comments on story pages?
-# COMMENTS_IN_STORIES = False
-COMMENTS_IN_STORIES = True
+# COMMENTS_IN_PAGES = False
+COMMENTS_IN_PAGES = True
 # Enable comments on picture gallery pages?
 # COMMENTS_IN_GALLERIES = False
 COMMENTS_IN_GALLERIES = True
