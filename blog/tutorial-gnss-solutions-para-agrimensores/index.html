@@ -2,7 +2,6 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="es">
 <head>
 <meta charset="utf-8">
-<base href="http://quijot.github.io/blog/tutorial-gnss-solutions-para-agrimensores/">
 <meta name="description" content="Tutorial de GNSS Solutions para Agrimensores">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tutorial de GNSS Solutions™ para Agrimensores | Santiago Pestarini</title>
@@ -144,19 +143,19 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <div class="section" id="adjuntos-con-este-tutorial">
 <h2><a class="toc-backref" href="#id3">Adjuntos con este tutorial</a></h2>
 <p>Se provee una plantilla para cada trabajo con la estructura de carpetas donde ordenar los archivos de observaciones, cad, etc. La misma se muestra a continuación. Es una buena costumbre copiarla en la carpeta de proyectos del GNSS Solutions, generalmente es</p>
-<pre class="code text"><a name="rest_code_59c36d9311254f239a0eb1ad9ff281fe-1"></a>C:\Mis Proyectos
+<pre class="code text"><a name="rest_code_16e625fd2ed14bf28a5ab2572e9e5b6a-1"></a>C:\Mis Proyectos
 </pre>
 <p>El archivo <em>leer.txt</em> tiene una explicación de para qué se destina cada carpeta.</p>
-<pre class="code text"><a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-1"></a>_plantilla\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-2"></a>  cad\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-3"></a>  coord\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-4"></a>  mdt\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-5"></a>  observ\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-6"></a>    base\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-7"></a>    ep\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-8"></a>    remoto\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-9"></a>    rinex\
-<a name="rest_code_d1c58b3da6ac43f78708a9f817211ff3-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-1"></a>_plantilla\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-2"></a>  cad\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-3"></a>  coord\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-4"></a>  mdt\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-5"></a>  observ\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-6"></a>    base\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-7"></a>    ep\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-8"></a>    remoto\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-9"></a>    rinex\
+<a name="rest_code_a2a8b5617b51457a9f877d97a0a5bda0-10"></a>  leer.txt
 </pre>
 </div>
 <div class="section" id="relevamiento-georreferenciado">
@@ -170,16 +169,16 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <li>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</li>
 <li>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo</em>. Deberá quedar así:</li>
 </ol>
-<pre class="code text"><a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-1"></a>C:\Mis Proyectos\Trabajo\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-2"></a>  cad\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-3"></a>  coord\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-4"></a>  mdt\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-5"></a>  observ\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-6"></a>    base\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-7"></a>    ep\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-8"></a>    remoto\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-9"></a>    rinex\
-<a name="rest_code_9405f724e9284b8bad536f3f2115a4f5-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_6a8e873d95f8477d8d71142809622ad2-1"></a>C:\Mis Proyectos\Trabajo\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-2"></a>  cad\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-3"></a>  coord\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-4"></a>  mdt\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-5"></a>  observ\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-6"></a>    base\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-7"></a>    ep\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-8"></a>    remoto\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-9"></a>    rinex\
+<a name="rest_code_6a8e873d95f8477d8d71142809622ad2-10"></a>  leer.txt
 </pre>
 <ol class="arabic" start="6">
 <li>
@@ -228,16 +227,16 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <li>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</li>
 <li>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo2</em>. Deberá quedar así:</li>
 </ol>
-<pre class="code text"><a name="rest_code_c263b244dec14b71bd33c7f536008216-1"></a>C:\Mis Proyectos\Trabajo2\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-2"></a>  cad\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-3"></a>  coord\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-4"></a>  mdt\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-5"></a>  observ\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-6"></a>    base\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-7"></a>    ep\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-8"></a>    remoto\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-9"></a>    rinex\
-<a name="rest_code_c263b244dec14b71bd33c7f536008216-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-1"></a>C:\Mis Proyectos\Trabajo2\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-2"></a>  cad\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-3"></a>  coord\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-4"></a>  mdt\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-5"></a>  observ\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-6"></a>    base\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-7"></a>    ep\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-8"></a>    remoto\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-9"></a>    rinex\
+<a name="rest_code_dd8c41b8e5e04d99a30957a312fcf0d1-10"></a>  leer.txt
 </pre>
 <ol class="arabic simple" start="5">
 <li>Descargue los archivos de los receptores base y remoto y guarde una copia de ellos en <em>Trabajo\observ\base</em> y <em>Trabajo\observ\remoto</em>.</li>
