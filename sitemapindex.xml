@@ -10,24 +10,12 @@
   <lastmod>2016-10-13T18:49:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://quijot.github.io/categories/aplicacion-we.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://quijot.github.io/categories/calc.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://quijot.github.io/categories/enia.xml</loc>
   <lastmod>2016-10-13T18:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/galvez.xml</loc>
   <lastmod>2016-10-13T18:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://quijot.github.io/categories/georreferenciacion.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/ggsr.xml</loc>
@@ -38,16 +26,12 @@
   <lastmod>2016-10-13T18:49:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://quijot.github.io/categories/gnss.xml</loc>
-  <lastmod>2016-10-28T19:11:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://quijot.github.io/categories/gps.xml</loc>
   <lastmod>2016-11-05T17:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/karina-galperin.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/legislacion.xml</loc>
@@ -79,15 +63,7 @@
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/ortografia.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://quijot.github.io/categories/posicionamiento-puntual-preciso.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://quijot.github.io/categories/posicionamiento-relativo.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/ppp.xml</loc>
@@ -99,15 +75,11 @@
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/python.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/scripts.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://quijot.github.io/categories/servicios-de-posicionamiento.xml</loc>
-  <lastmod>2016-10-28T20:37:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/software.xml</loc>
@@ -115,14 +87,14 @@
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/categories/tedxriodelaplata.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/rss.xml</loc>
-  <lastmod>2016-11-05T17:48:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://quijot.github.io/sitemap.xml</loc>
-  <lastmod>2016-11-05T17:49:00Z</lastmod>
+  <lastmod>2016-11-05T18:19:00Z</lastmod>
  </sitemap>
 </sitemapindex>

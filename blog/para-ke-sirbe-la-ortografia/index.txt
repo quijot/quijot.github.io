@@ -4,7 +4,7 @@
 .. tags: ortografía, scripts, python, Karina Galperin, TEDxRiodelaPlata
 .. category:
 .. link:
-.. description: Aplicación para traducir a Simpl-Español
+.. description: Corrector par ala "nueba ortografía".
 .. type: text
 
 La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED [*]_: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
