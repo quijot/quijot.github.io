@@ -1,0 +1,107 @@
+.. title: ¿Para ké sirbe la ortografía?
+.. slug: para-ke-sirbe-la-ortografia
+.. date: 2016-11-05 12:00:00 UTC-03:00
+.. tags: ortografía, scripts, python, Karina Galperin, TEDxRiodelaPlata
+.. category:
+.. link:
+.. description: Aplicación para traducir a Simpl-Español
+.. type: text
+
+La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED [*]_: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
+
+Ella misma responde:
+
+    La respuesta es bastante más simple y menos trascendental de lo que suelen creer.
+    
+    La ortografía sirve para uniformar la escritura, para que todos escribamos igual y por lo tanto nos sea más fácil entendernos cuando nos leemos. Pero en contraposición con otros aspectos de la lengua, como la puntuación por ejemplo, en la ortografía no hay ninguna habilidad expresiva individual involucrada. En la puntuación sí.
+    
+    **Con la puntuación puedo elegir cambiarle el sentido a una frase, con la ortografía no**.
+
+Después de verla, me quedé con la idea de que sería bueno tener un traductor de español o castellano actual al que propone ella, con una ortografía simplificada. Me encanta la idea de que escribir sea tan sencillo, que sea determinístico. Que una pronunciación tenga sólo una forma de escritura y viceversa. La habilidad no está en saberse las reglas de ortografía, la habilidad y el talento están en todo lo demás: la puntuación, el ritmo, la música, las metáforas, las rimas, el sentido, la semántica que se le da a un texto o a una narración. En la escuela nos han hecho creer todo al revés.
+
+Y como a través de los ojos de los programadores, en la vida se ve todo resoluble o implementable con un par de líneas de código, hice un `script python <https://gist.github.com/quijot/c2fbb590e057b4f53e9c0c39fb91f261>`_ [*]_ que toma un archivo de texto plano y devuelve por pantalla el texto en ese español de ortagrafía simplificada, con todas las modificaciones que propone Karina, más algunas prpopuestas por mí, de los más extremistas. Perdón, no resistí la tentación.
+
+.. code:: bash
+
+   python simpl-es.py casatomada > casatomada.simple
+
+Sería muy sencillo hacer un traductor o **corrector online**, pero lo haría **sólo si me lo pide Karina Galperín**. Por ahora es un script para *nerds linuxeros y pythonistas*.
+
+La traducción a través de un programa tan sencillo como este suma entropía, es decir, dado un texto en español simplificado, no se puede rehacer el texto original en español actual a través de un algoritmo de reemplazos sencillo. Pero ese es otro mambo. Por ahora, este sencillo script, funciona muy bien la inmensa mayoría de los casos, según un estudio que hice con tres cuentos: *Casa tomada*, *Carta a una señorita en París* y *Funes, el memorioso* (dedicado a mi amigo José *Peco* Perren Canclini), que pasarón de pesar 44.2 Kb a 43.5 Kb, lo que significa un ahorro nada despreciable del 1.6% de almacenamiento.
+
+Veamos algún ejemplo.
+
+Kasa tomada, del libro *Bestiario* (Julio Kortásar)
+---------------------------------------------------
+
+Nos gustaba la kasa porke aparte de espasiosa y antigua (oy ke las kasas antiguas sukumben a la más bentajosa likidasión de sus materiales) guardaba los rekuerdos de nuestros bisabuelos, el abuelo paterno, nuestros padres y toda la infansia.
+
+.. TEASER_END
+
+Nos abituamos Irene y yo a persistir solos en eya, lo ke era una lokura pues en esa kasa podían bibir ocho personas sin estorbarse. Acíamos la limpiesa por la maniana, lebantándonos a las siete, y a eso de las onse yo le dejaba a Irene las últimas abitasiones por repasar y me iba a la kosina. Almorsábamos al mediodía, siempre puntuales; ya no kedaba nada por aser fuera de unos platos susios. Nos resultaba grato almorsar pensando en la kasa profunda y silensiosa y cómo nos bastábamos para mantenerla limpia. A beses yegábamos a creer ke era eya la ke no nos dejó kasarnos. Irene rechasó dos pretendientes sin mayor motibo, a mí se me murió María Ester antes ke yegáramos a komprometernos. Entramos en los kuarenta anios kon la inekspresada idea de ke el nuestro, simple y silensioso matrimonio de ermanos, era nesesaria clausura de la jenealogía asentada por nuestros bisabuelos en nuestra kasa. Nos moriríamos ayí algún día, bagos y eskibos primos se kedarían kon la kasa y la echarían al suelo para enrikeserse kon el terreno y los ladriyos; o mejor, nosotros mismos la boltearíamos justisieramente antes de ke fuese demasiado tarde.
+
+Irene era una chika nasida para no molestar a nadie. Aparte de su actibidad matinal se pasaba el resto del día tejiendo en el sofá de su dormitorio. No sé por ké tejía tanto, yo creo ke las mujeres tejen kuando an enkontrado en esa labor el gran preteksto para no aser nada. Irene no era así, tejía kosas siempre nesesarias, trikotas para el inbierno, medias para mí, manianitas y chalekos para eya. A beses tejía un chaleko y después lo destejía en un momento porke algo no le agradaba; era grasioso ber en la kanastiya el montón de lana encrespada resistiéndose a perder su forma de algunas oras. Los sábados iba yo al sentro a komprarle lana; Irene tenía fe en mi gusto, se komplacía kon los kolores y nunka tube ke debolber madejas. Yo aprobechaba esas salidas para dar una buelta por las librerías y preguntar banamente si abía nobedades en literatura fransesa. Desde 1939 no yegaba nada balioso a la Arjentina.
+
+Pero es de la kasa ke me interesa ablar, de la kasa y de Irene, porke yo no tengo importansia. Me pregunto ké ubiera echo Irene sin el tejido. Uno puede releer un libro, pero kuando un puyober está terminado no se puede repetirlo sin esándalo. Un día enkontré el kajón de abajo de la cómoda de alkanfor yeno de panioletas blankas, berdes, lila. Estaban kon naftalina, apiladas komo en una mersería; no tube balor para preguntarle a Irene ké pensaba aser kon eyas. No nesesitábamos ganarnos la bida, todos los meses yegaba plata de los kampos y el dinero aumentaba. Pero a Irene solamente la entretenía el tejido, mostraba una destresa marabiyosa y a mí se me iban las oras biéndole las manos komo erisos plateados, agujas yendo y biniendo y una o dos kanastiyas en el suelo donde se ajitaban konstantemente los obiyos. Era ermoso.
+
+Cómo no akordarme de la distribusión de la kasa. El komedor, una sala kon gobelinos, la biblioteka y tres dormitorios grandes kedaban en la parte más retirada, la ke mira asia Rodríges Penia. Solamente un pasiyo kon su masisa puerta de roble aislaba esa parte del ala delantera donde abía un banio, la kosina, nuestros dormitorios y el libing sentral, al kual komunikaban los dormitorios y el pasiyo. Se entraba a la kasa por un saguán kon mayólika, y la puerta kansel daba al libing. De manera ke uno entraba por el saguán, abría la kansel y pasaba al libing; tenía a los lados las puertas de nuestros dormitorios, y al frente el pasiyo ke konducía a la parte más retirada; abansando por el pasiyo se frankeaba la puerta de roble y mas ayá empesaba el otro lado de la kasa, o bien se podía jirar a la iskierda justamente antes de la puerta y segir por un pasiyo más estrecho ke yebaba a la kosina y el banio. Kuando la puerta estaba abierta adbertía uno ke la kasa era muy grande; si no, daba la impresión de un departamento de los ke se edifikan aora, apenas para moberse; Irene y yo bibíamos siempre en esta parte de la kasa, kasi nunka íbamos más ayá de la puerta de roble, salbo para aser la limpiesa, pues es increíble cómo se junta tierra en los muebles. Buenos Aires será una siudad limpia, pero eso lo debe a sus abitantes y no a otra kosa. Ay demasiada tierra en el aire, apenas sopla una ráfaga se palpa el polbo en los mármoles de las konsolas y entre los rombos de las karpetas de macramé; da trabajo sakarlo bien kon plumero, buela y se suspende en el aire, un momento después se deposita de nuebo en los muebles y los pianos.
+
+Lo rekordaré siempre kon claridad porke fue simple y sin sirkunstansias inútiles. Irene estaba tejiendo en su dormitorio, eran las ocho de la noche y de repente se me okurrió poner al fuego la pabita del mate. Fui por el pasiyo asta enfrentar la entornada puerta de roble, y daba la buelta al kodo ke yebaba a la kosina kuando eskuché algo en el komedor o en la biblioteka. El sonido benía impresiso y sordo, komo un bolkarse de siya sobre la alfombra o un aogado susurro de konbersasión. También lo oí, al mismo tiempo o un segundo después, en el fondo del pasiyo ke traía desde akeyas piesas asta la puerta. Me tiré kontra la pared antes de ke fuera demasiado tarde, la serré de golpe apoyando el kuerpo; felismente la yabe estaba puesta de nuestro lado y además korrí el gran serrojo para más seguridad.
+
+Fui a la kosina, kalenté la pabita, y kuando estube de buelta kon la bandeja del mate le dije a Irene:
+
+-Tube ke serrar la puerta del pasiyo. An tomado parte del fondo.
+
+Dejó kaer el tejido y me miró kon sus grabes ojos kansados.
+
+-¿Estás seguro?
+
+Asentí.
+
+-Entonses -dijo rekojiendo las agujas- tendremos ke bibir en este lado.
+
+Yo sebaba el mate kon mucho kuidado, pero eya tardó un rato en reanudar su labor. Me akuerdo ke me tejía un chaleko gris; a mí me gustaba ese chaleko.
+
+Los primeros días nos paresió penoso porke ambos abíamos dejado en la parte tomada muchas kosas ke keríamos. Mis libros de literatura fransesa, por ejemplo, estaban todos en la biblioteka. Irene pensó en una boteya de Esperidina de muchos anios. Kon frekuensia (pero esto solamente susedió los primeros días) serrábamos algún kajón de las cómodas y nos mirábamos kon tristesa.
+
+-No está akí.
+
+Y era una kosa más de todo lo ke abíamos perdido al otro lado de la kasa.
+
+Pero también tubimos bentajas. La limpiesa se simplificó tanto ke aun lebantándose tardísimo, a las nuebe y media por ejemplo, no daban las onse y ya estábamos de brasos crusados. Irene se akostumbró a ir konmigo a la kosina y ayudarme a preparar el almuerso. Lo pensamos bien, y se desidió esto: mientras yo preparaba el almuerso, Irene kosinaría platos para komer fríos de noche. Nos alegramos porke siempre resultaba molesto tener ke abandonar los dormitorios al atardeser y ponerse a kosinar. Aora nos bastaba kon la mesa en el dormitorio de Irene y las fuentes de komida fiambre.
+
+Irene estaba kontenta porke le kedaba más tiempo para tejer. Yo andaba un poko perdido a kausa de los libros, pero por no aflijir a mi ermana me puse a rebisar la kolecsión de estampiyas de papá, y eso me sirbió para matar el tiempo. Nos dibertíamos mucho, kada uno en sus kosas, kasi siempre reunidos en el dormitorio de Irene ke era más cómodo. A beses Irene decía:
+
+-Fijate este punto ke se me a okurrido. ¿No da un dibujo de trébol?
+
+Un rato después era yo el ke le ponía ante los ojos un kuadradito de papel para ke biese el mérito de algún seyo de Eupen y Malmédy. Estábamos bien, y poko a poko empesábamos a no pensar. Se puede bibir sin pensar.
+
+(Kuando Irene soniaba en alta bos yo me desbelaba en segida. Nunka pude abituarme a esa bos de estatua o papagayo, bos ke biene de los suenios y no de la garganta. Irene decía ke mis suenios konsistían en grandes sakudones ke a beses acían kaer el kobertor. Nuestros dormitorios tenían el libing de por medio, pero de noche se eskuchaba kualkier kosa en la kasa. Nos oíamos respirar, toser, presentíamos el ademán ke konduse a la yabe del belador, los mutuos y frekuentes insomnios.
+
+Aparte de eso todo estaba kayado en la kasa. De día eran los rumores doméstikos, el rose metáliko de las agujas de tejer, un crujido al pasar las ojas del álbum filatéliko. La puerta de roble, creo aberlo dicho, era masisa. En la kosina y el banio, ke kedaban tokando la parte tomada, nos poníamos a ablar en bos más alta o Irene kantaba kansiones de kuna. En una kosina ay demasiados ruidos de losa y bidrios para ke otros sonidos irrumpan en eya. Muy pokas beses permitíamos ayí el silensio, pero kuando tornábamos a los dormitorios y al libing, entonses la kasa se ponía kayada y a media lus, asta pisábamos despasio para no molestarnos. Yo creo ke era por eso ke de noche, kuando Irene empesaba a soniar en alta bos, me desbelaba en segida.)
+
+Es kasi repetir lo mismo salbo las konsekuensias. De noche siento sed, y antes de akostarnos le dije a Irene ke iba asta la kosina a serbirme un baso de agua. Desde la puerta del dormitorio (eya tejía) oí ruido en la kosina; tal bes en la kosina o tal bes en el banio porke el kodo del pasiyo apagaba el sonido. A Irene le yamó la atensión mi bruska manera de detenerme, y bino a mi lado sin desir palabra. Nos kedamos eskuchando los ruidos, notando claramente ke eran de este lado de la puerta de roble, en la kosina y el banio, o en el pasiyo mismo donde empesaba el kodo kasi al lado nuestro.
+
+No nos miramos sikiera. Apreté el braso de Irene y la ise korrer konmigo asta la puerta kansel, sin bolbernos asia atrás. Los ruidos se oían más fuerte pero siempre sordos, a espaldas nuestras. Serré de un golpe la kansel y nos kedamos en el saguán. Aora no se oía nada.
+
+-An tomado esta parte -dijo Irene. El tejido le kolgaba de las manos y las ebras iban asta la kansel y se perdían debajo. Kuando bio ke los obiyos abían kedado del otro lado, soltó el tejido sin mirarlo.
+
+-¿Tubiste tiempo de traer alguna kosa? -le pregunté inútilmente.
+
+-No, nada.
+
+Estábamos kon lo puesto. Me akordé de los kinse mil pesos en el armario de mi dormitorio. Ya era tarde aora.
+
+Komo me kedaba el reloj pulsera, bi ke eran las onse de la noche. Rodeé kon mi braso la sintura de Irene (yo creo ke eya estaba yorando) y salimos así a la kaye. Antes de alejarnos tube lástima, serré bien la puerta de entrada y tiré la yabe a la alkantariya. No fuese ke a algún pobre diablo se le okurriera robar y se metiera en la kasa, a esa ora y kon la kasa tomada.
+
+.. [*]
+
+.. youtube:: VpkneIesi60
+   :align: center
+
+.. [*]
+
+.. raw:: html
+
+   <script src="https://gist.github.com/quijot/c2fbb590e057b4f53e9c0c39fb91f261.js"></script>
+
