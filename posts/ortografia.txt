@@ -7,7 +7,10 @@
 .. description: Corrector para la "nueba ortografía".
 .. type: text
 
-La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED [*]_: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
+.. youtube:: VpkneIesi60
+   :align: center
+
+La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
 
 Ella misma responde:
 
@@ -93,11 +96,6 @@ No nos miramos sikiera. Apreté el braso de Irene y la ise korrer konmigo asta l
 Estábamos kon lo puesto. Me akordé de los kinse mil pesos en el armario de mi dormitorio. Ya era tarde aora.
 
 Komo me kedaba el reloj pulsera, bi ke eran las onse de la noche. Rodeé kon mi braso la sintura de Irene (yo creo ke eya estaba yorando) y salimos así a la kaye. Antes de alejarnos tube lástima, serré bien la puerta de entrada y tiré la yabe a la alkantariya. No fuese ke a algún pobre diablo se le okurriera robar y se metiera en la kasa, a esa ora y kon la kasa tomada.
-
-.. [*]
-
-.. youtube:: VpkneIesi60
-   :align: center
 
 .. [*]
 
