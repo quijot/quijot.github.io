@@ -4,7 +4,7 @@
 .. tags: ortografía, scripts, python, Karina Galperin, TEDxRiodelaPlata
 .. category:
 .. link:
-.. description: Corrector par ala "nueba ortografía".
+.. description: Corrector para la "nueba ortografía".
 .. type: text
 
 La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED [*]_: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
@@ -19,7 +19,7 @@ Ella misma responde:
 
 Después de verla, me quedé con la idea de que sería bueno tener un traductor de español o castellano actual al que propone ella, con una ortografía simplificada. Me encanta la idea de que escribir sea tan sencillo, que sea determinístico. Que una pronunciación tenga sólo una forma de escritura y viceversa. La habilidad no está en saberse las reglas de ortografía, la habilidad y el talento están en todo lo demás: la puntuación, el ritmo, la música, las metáforas, las rimas, el sentido, la semántica que se le da a un texto o a una narración. En la escuela nos han hecho creer todo al revés.
 
-Y como a través de los ojos de los programadores, en la vida se ve todo resoluble o implementable con un par de líneas de código, hice un `script python <https://gist.github.com/quijot/c2fbb590e057b4f53e9c0c39fb91f261>`_ [*]_ que toma un archivo de texto plano y devuelve por pantalla el texto en ese español de ortagrafía simplificada, con todas las modificaciones que propone Karina, más algunas prpopuestas por mí, de los más extremistas. Perdón, no resistí la tentación.
+Y como a través de los ojos de los programadores, en la vida se ve todo resoluble o implementable con un par de líneas de código, hice un `script python <https://gist.github.com/quijot/c2fbb590e057b4f53e9c0c39fb91f261>`_ [*]_ que toma un archivo de texto plano y devuelve por pantalla el texto en ese español de ortagrafía simplificada, con todas las modificaciones que propone Karina, más algunas propuestas por mí, de los más extremistas. Perdón, no resistí la tentación.
 
 .. code:: bash
 
