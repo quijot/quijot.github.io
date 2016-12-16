@@ -642,15 +642,15 @@ GITHUB_COMMIT_SOURCE = True
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
-# THUMBNAIL_SIZE = 180
+THUMBNAIL_SIZE = 640
 # MAX_IMAGE_SIZE = 1280
 # USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
-# GALLERY_SORT_BY_DATE = True
+GALLERY_SORT_BY_DATE = False
 
 # If set to True, EXIF data will be copied when an image is thumbnailed or
 # resized.
@@ -866,7 +866,7 @@ COMMENT_SYSTEM_ID = "quijot"
 COMMENTS_IN_PAGES = True
 # Enable comments on picture gallery pages?
 # COMMENTS_IN_GALLERIES = False
-COMMENTS_IN_GALLERIES = True
+COMMENTS_IN_GALLERIES = False
 
 # What file should be used for directory indexes?
 # Defaults to index.html
