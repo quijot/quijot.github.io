@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://quijot.github.io/</loc>
-  <lastmod>2016-10-28T17:49:00Z</lastmod>
+  <lastmod>2016-12-16T16:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://quijot.github.io/2012/</loc>
@@ -148,5 +148,21 @@
  <url>
   <loc>http://quijot.github.io/categories/tedxriodelaplata/</loc>
   <lastmod>2016-11-05T17:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://quijot.github.io/galleries/</loc>
+  <lastmod>2016-12-16T16:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://quijot.github.io/galleries/Pruebas%20Calculadora%20ITRF08-POSGAR07/</loc>
+  <lastmod>2016-12-16T16:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://quijot.github.io/galleries/Pruebas%20Calculadora%20ITRF08-POSGAR07/Elipse%2099%25%20confianza/</loc>
+  <lastmod>2016-12-16T16:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://quijot.github.io/galleries/Pruebas%20Calculadora%20ITRF08-POSGAR07/Evoluci%C3%B3n%20de%20los%20desv%C3%ADos/</loc>
+  <lastmod>2016-12-16T16:17:00Z</lastmod>
  </url>
 </urlset>
