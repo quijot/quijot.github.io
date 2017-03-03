@@ -13,7 +13,8 @@ Algunos de mis trabajos:
 - `GGSR - Grupo de Geodesia Satelital de Rosario <http://www.fceia.unr.edu.ar/gps/>`_
 
   - `Mapa TR <http://www.fceia.unr.edu.ar/gps/mapatr/>`_
-  - `PPPCalc <http://www.fceia.unr.edu.ar/gps/pppcalc/>`_
+  - `Calculadora ITRF08 → POSGAR07 <http://www.fceia.unr.edu.ar/gps/calc/>`_
+    
+    - Aplicación web para Georreferenciación utilizando servicios de posicionamiento en línea (2016) [`PDF <https://goo.gl/3EYVCG>`_] [`Presentación calc16 </calc/calc.svg>`_]
 
-- `Relevamiento planialtimétrico en Nogoyá, Entre Ríos (2009) </nogoya.svg>`_ (Presentación)
-
+- Relevamiento planialtimétrico en Nogoyá, Entre Ríos (2009) [`Presentación nog09 </nogoya.svg>`_]
