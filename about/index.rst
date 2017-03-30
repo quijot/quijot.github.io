@@ -16,5 +16,6 @@ Algunos de mis trabajos:
   - `Calculadora ITRF08 → POSGAR07 <http://www.fceia.unr.edu.ar/gps/calc/>`_
     
     - Aplicación web para Georreferenciación utilizando servicios de posicionamiento en línea (2016) [`PDF <https://goo.gl/3EYVCG>`_] [`Presentación calc16 </calc/calc.svg>`_]
+    - Pruebas automatizadas de exactitud de la aplicación [`Gráficas </calc-test-evolution/>`_]
 
 - Relevamiento planialtimétrico en Nogoyá, Entre Ríos (2009) [`Presentación nog09 </nogoya.svg>`_]
