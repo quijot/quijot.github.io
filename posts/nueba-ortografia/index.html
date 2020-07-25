@@ -108,7 +108,8 @@ navbar-dark bg-dark
         <a class="tag p-category badge badge-secondary" href="../../categories/tedxriodelaplata/" rel="tag">TEDxRiodelaPlata</a>
     <div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>De nuevo con esto de la <em>nueba ortografía</em>. En el <a class="reference external" href="../../blog/para-ke-sirbe-la-ortografia/">post anterior</a> fui al extremo, pero según <a class="reference external" href="http://www.utdt.edu/ver_contenido.php?id_contenido=12669&amp;id_item_menu=22899">Karina Galperín</a> (<a class="reference external" href="https://twitter.com/kgalperin">@kgalperin</a>), en su <a class="reference external" href="http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015">charla en el TEDxRíoDeLaPlata2015</a>, deberíamos empezar con 4 modificaciones:</p>
+<p>De nuevo con esto de la <em>nueba ortografía</em>. En el <a class="reference external" href="../para-ke-sirbe-la-ortografia/">post anterior</a> fui al extremo, pero según <a class="reference external" href="http://www.utdt.edu/ver_contenido.php?id_contenido=12669&amp;id_item_menu=22899">Karina Galperín</a> (<a class="reference external" href="https://twitter.com/kgalperin">@kgalperin</a>), en su <a class="reference external" href="http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015">charla en el TEDxRíoDeLaPlata2015</a>, deberíamos empezar con 4 modificaciones:</p>
+<!-- TEASER_END -->
 <ul class="simple">
 <li><p>eliminar la H muda (acer, ablar, acia, zanaoria, ermoso);</p></li>
 <li><p>elegir una entre la V y la B y eliminar la otra, porque <strong>no</strong> se pronuncian distinto;</p></li>
@@ -201,7 +202,7 @@ function corregir() {
   var s = getOption('sz');
   ta.value = nueba(t, b, s);
 }
-</script><form id="nueba" class="form-horizontal" onsubmit="corregir();" action="javascript:void(0);">
+</script><form id="nueba" onsubmit="corregir();" action="javascript:void(0);">
 <fieldset>
 <legend>Corrector de la <em>nueba ortografía</em>
 </legend>
@@ -264,7 +265,7 @@ Estábamos con lo puesto. Me acordé de los quince mil pesos en el armario de mi
 
 Como me quedaba el reloj pulsera, vi que eran las once de la noche. Rodeé con mi brazo la cintura de Irene (yo creo que ella estaba llorando) y salimos así a la calle. Antes de alejarnos tuve lástima, cerré bien la puerta de entrada y tiré la llave a la alcantarilla. No fuese que a algún pobre diablo se le ocurriera robar y se metiera en la casa, a esa hora y con la casa tomada.</textarea>
 </div>
-  <div class="form-group">
+  <div class="form-group row">
     <label class="col-lg-2 control-label">Seleccionar V o B</label>
     <div class="col-lg-2">
       <div class="radio">
@@ -295,8 +296,8 @@ Como me quedaba el reloj pulsera, vi que eran las once de la noche. Rodeé con m
         </label>
       </div>
     </div>
-    <div class="btn-group pull-right">
-      <button class="btn btn-default" type="reset">Restablecer</button>
+    <div class="col-lg-4 btn-group">
+      <button class="btn btn-outline-dark" type="reset">Restablecer</button>
       <button class="btn btn-primary" type="submit">Corregir</button>
     </div>
   </div>

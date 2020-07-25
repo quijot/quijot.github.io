@@ -31,7 +31,7 @@
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/karina-galperin.xml</loc>
-  <lastmod>2020-07-25T20:33:00Z</lastmod>
+  <lastmod>2020-07-25T20:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/legislacion.xml</loc>
@@ -63,7 +63,7 @@
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/ortografia.xml</loc>
-  <lastmod>2020-07-25T20:33:00Z</lastmod>
+  <lastmod>2020-07-25T20:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/ppp.xml</loc>
@@ -87,11 +87,15 @@
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/tedxriodelaplata.xml</loc>
-  <lastmod>2020-07-25T20:33:00Z</lastmod>
+  <lastmod>2020-07-25T20:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/galleries/Pruebas%20Calculadora%20ITRF08-POSGAR07/rss.xml</loc>
   <lastmod>2020-07-25T20:33:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://quijot.github.io/galleries/Screnshots/rss.xml</loc>
+  <lastmod>2020-07-25T20:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/galleries/rss.xml</loc>
@@ -99,10 +103,10 @@
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/rss.xml</loc>
-  <lastmod>2020-07-25T20:33:00Z</lastmod>
+  <lastmod>2020-07-25T20:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/sitemap.xml</loc>
-  <lastmod>2020-07-25T20:33:00Z</lastmod>
+  <lastmod>2020-07-25T20:54:00Z</lastmod>
  </sitemap>
 </sitemapindex>
