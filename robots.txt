@@ -1,4 +1,4 @@
-Sitemap: http://quijot.github.io/sitemapindex.xml
+Sitemap: https://quijot.github.io/sitemapindex.xml
 
 User-Agent: *
 Host: quijot.github.io
