@@ -1,0 +1,9 @@
+.. title: Django con Poetry para gestionar dependencias
+.. slug: django-poetry
+.. date: 2020-07-26 17:00:00 UTC-03:00
+.. tags: code, python, django, poetry, dependencias
+.. category: 
+.. link: 
+.. description: Cómo gestionar dependencias una aplicación Django con Poetry
+.. type: text
+

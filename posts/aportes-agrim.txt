@@ -8,9 +8,19 @@
 .. type: text
 
 
-.. class:: well well-sm pull-right
+.. raw:: html
+
+    <div class="card float-right" style="z-index: 1">
+    <div class="card-body">
+
 
 .. contents:: Índice de contenido
+
+
+.. raw:: html
+
+    </div>
+    </div>
 
 
 .. class:: alert alert-info

@@ -5,5 +5,7 @@ output
 .doit.db
 .doit.db.db
 
-files/ot/galvez.odt
+.venv
+.vscode
 
+files/ot/galvez.odt

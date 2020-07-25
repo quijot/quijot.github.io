@@ -7,6 +7,8 @@
 .. description: Tutorial de GNSS Solutions para Agrimensores
 .. type: text
 
+.. class:: alert alert-light col-lg-6 float-right
+
 .. contents:: Índice
 
 Introducción
