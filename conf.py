@@ -1013,7 +1013,7 @@ COMMENT_SYSTEM_ID = "quijot"
 # Enable comments on pages (i.e. not posts)?
 COMMENTS_IN_PAGES = False
 # Enable comments on picture gallery pages?
-COMMENTS_IN_GALLERIES = True
+COMMENTS_IN_GALLERIES = False
 
 # What file should be used for directory indexes?
 # Defaults to index.html
