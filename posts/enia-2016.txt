@@ -15,8 +15,8 @@ El 2 y 3 de junio se llevó a cabo el `ENIA 2016 <http://fich.unl.edu.ar/enia201
 
 Presentamos, con parte del `GGSR <http://www.fceia.unr.edu.ar/gps/>`_, nuestra `Calculadora PPP <http://www.fceia.unr.edu.ar/gps/pppcalc/>`_. Todo salió excelente. A seguir trabajando.
 
-.. image:: /img/enia-pppcalc.jpg
+.. image:: /img/enia-pppcalc.webp
    :alt: Nuestra PPPCalc en el ENIA 2016
-   :target: /img/enia-pppcalc.jpg
+   :target: /img/enia-pppcalc.webp
    :align: center
 
