@@ -7,18 +7,24 @@
 .. description: Corrector para la "nueba ortografía".
 .. type: text
 
-.. youtube:: VpkneIesi60
-   :align: center
-
-La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED: `¿Ase falta una nueba ortografía? <http://tedxriodelaplata.org/videos/ortografia>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
+La pregunta nos la hace `Karina Galperín <http://www.utdt.edu/ver_contenido.php?id_contenido=12669&id_item_menu=22899>`_ (`@kgalperin <https://twitter.com/kgalperin>`_) en su charla TED: `¿Ase falta una nueba ortografía? <https://www.youtube.com/watch?v=VpkneIesi60>`_ en el `TEDxRíoDeLaPlata2015 <http://tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2015>`_.
 
 Ella misma responde:
 
-    La respuesta es bastante más simple y menos trascendental de lo que suelen creer.
-    
-    La ortografía sirve para uniformar la escritura, para que todos escribamos igual y por lo tanto nos sea más fácil entendernos cuando nos leemos. Pero en contraposición con otros aspectos de la lengua, como la puntuación por ejemplo, en la ortografía no hay ninguna habilidad expresiva individual involucrada. En la puntuación sí.
-    
-    **Con la puntuación puedo elegir cambiarle el sentido a una frase, con la ortografía no**.
+.. TEASER_END
+
+.. raw:: html
+
+   <blockquote class="blockquote text-right">
+      <p>La respuesta es bastante más simple y menos trascendental de lo que suelen creer.</p>
+
+      <p>La ortografía sirve para uniformar la escritura, para que todos escribamos igual y por lo tanto nos sea más fácil entendernos cuando nos leemos. Pero en contraposición con otros aspectos de la lengua, como la puntuación por ejemplo, en la ortografía no hay ninguna habilidad expresiva individual involucrada. En la puntuación sí.</p>
+
+      <p><strong>Con la puntuación puedo elegir cambiarle el sentido a una frase, con la ortografía no</strong>.</p>
+   </blockquote>
+
+.. youtube:: VpkneIesi60
+   :align: center
 
 Después de verla, me quedé con la idea de que sería bueno tener un traductor de español o castellano actual al que propone ella, con una ortografía simplificada. Me encanta la idea de que escribir sea tan sencillo, que sea determinístico. Que una pronunciación tenga sólo una forma de escritura y viceversa. La habilidad no está en saberse las reglas de ortografía, la habilidad y el talento están en todo lo demás: la puntuación, el ritmo, la música, las metáforas, las rimas, el sentido, la semántica que se le da a un texto o a una narración. En la escuela nos han hecho creer todo al revés.
 
@@ -102,4 +108,3 @@ Komo me kedaba el reloj pulsera, bi ke eran las onse de la noche. Rodeé kon mi 
 .. raw:: html
 
    <script src="https://gist.github.com/quijot/c2fbb590e057b4f53e9c0c39fb91f261.js"></script>
-
