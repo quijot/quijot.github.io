@@ -1,0 +1,9 @@
+.. title: Deploy de un proyecto GeoDjango en heroku
+.. slug: geodjango-to-heroku
+.. date: 2021-07-26 16:00:00 UTC-03:00
+.. tags: draft, code, python, geodjango, django, deploy, heroku, gdal, geos, proj
+.. category: 
+.. link: 
+.. description: Cómo deployar un proyecto GeoDjango a heroku
+.. type: text
+

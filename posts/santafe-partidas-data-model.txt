@@ -1,7 +1,7 @@
 .. title: Un modelo de datos para las Partidas de Impuesto Inmobiliario de la provincia de Santa Fe
 .. slug: santafe-partidas-data-model
-.. date: 2020-07-26 18:00:00 UTC-03:00
-.. tags: modelo de datos, base de datos, santa fe
+.. date: 2021-07-26 18:00:00 UTC-03:00
+.. tags: draft, modelo de datos, base de datos, santa fe
 .. category: 
 .. link: 
 .. description: Pensando una forma de modelar las Partidas de Impuesto Inmobiliario de la provincia Santa Fe

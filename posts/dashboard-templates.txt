@@ -1,0 +1,16 @@
+.. title: Admin Dashboard Templates para Django
+.. slug: django-dashboards
+.. date: 2021-07-26 18:00:00 UTC-03:00
+.. tags: draft, code, python, django, admin, dashboard, template
+.. category: 
+.. link: 
+.. description: Probando paneles administrativos para Django
+.. type: text
+
+Probar:
+- SB Admin 2
+- Spur
+- AdminLTE
+- Colorlib, Sufee https://github.com/puikinsh/sufee-admin-dashboard
+- Nice Admin, https://www.wrappixel.com/demos/free-admin-templates/nice-admin-lite/nice-html/ltr/index.html
+- Matrix Admin, https://www.wrappixel.com/demos/free-admin-templates/matrix-admin-bt4/html/ltr/index.html
