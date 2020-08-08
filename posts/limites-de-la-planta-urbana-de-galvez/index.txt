@@ -7,17 +7,17 @@
 .. description: 
 .. type: text
 
-Rigen en Gálvez las Ordenanzas Nº 1278/1987 *Reglamento Tipo de Loteos, Subdivisiones y Urbanizaciones* y su modificatoria, Nº 1344/1988. Esta última, en su `Artículo 1º </img/galvez/Ord1344_Art1.png>`_ establece los límites del área urbana de la Ciudad de Gálvez, modificando las áreas urbana y suburbana definidas en la anterior Ordenanza. Desde allí, no conozco otra definición de los límites en cuestión.
+Rigen en Gálvez las Ordenanzas Nº 1278/1987 *Reglamento Tipo de Loteos, Subdivisiones y Urbanizaciones* y su modificatoria, Nº 1344/1988. Esta última, en su `Artículo 1º </img/galvez/Ord1344_Art1.webp>`_ establece los límites del área urbana de la Ciudad de Gálvez, modificando las áreas urbana y suburbana definidas en la anterior Ordenanza. Desde allí, no conozco otra definición de los límites en cuestión.
 
 Sirva de referencia el `planito <https://www.galvez.gob.ar/index.php/ciudad/planos/item/15-planta-urbana>`_ del `portal del Municipio de la ciudad <https://www.galvez.gob.ar/>`_, sobre el cual dibujé el límite descrito en la `Ordenanza Nº 1344/88 <http://www.concejogalvez.com.ar/documentos/digesto/digesto.3966.1344.pdf>`_.
 
-.. image:: /img/galvez/Ord1344_Art1.png
+.. image:: /img/galvez/Ord1344_Art1.webp
    :alt: Ordenanza Nº 1344/1988, Artículo 1º
-   :target: /img/galvez/Ord1344_Art1.png
+   :target: /img/galvez/Ord1344_Art1.webp
    :width: 25%
 
-.. image:: /img/galvez/LimitePlantaUrbana.png
+.. image:: /img/galvez/LimitePlantaUrbana.webp
    :alt: Planta Urbana Gálvez
-   :target: /img/galvez/LimitePlantaUrbana_big.png
+   :target: /img/galvez/LimitePlantaUrbana_big.webp
    :width: 40%
 
