@@ -7,7 +7,7 @@ assets/css/all-nocdn.css=
     baguetteBox.min.css,
     theme.css,
     custom.css,
-    fa-all.css,
+    fa-all.min.css,
 assets/css/all.css=
     rst_base.css,
     nikola_rst.css,
