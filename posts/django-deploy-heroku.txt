@@ -1,9 +1,0 @@
-.. title: Deploy de una aplicación Django en heroku
-.. slug: django-to-heroku
-.. date: 2020-07-26 16:00:00 UTC-03:00
-.. tags: code, python, django, deploy, heroku
-.. category: 
-.. link: 
-.. description: Cómo deployar una aplicación Django mínima a heroku
-.. type: text
-
