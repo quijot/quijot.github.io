@@ -1,23 +1,30 @@
 .. title: El Ordenamiento Territorial de Gálvez
 .. slug: galvez-ot
 .. date: 2016-05-01 19:54:53 UTC-03:00
-.. tags: ordenamiento territorial, gálvez, legislación, ordenanzas, mathjax
+.. tags: ordenamiento territorial, gálvez, legislación, ordenanzas
 .. category: 
 .. link: 
 .. description: Un análisis del Cuerpo Normativo en el contexto local, regional y nacional
 .. type: text
 
-.. sidebar:: Enlaces de descarga
 
-   **El Ordenamiento Territorial de Gálvez** [`PDF </ot/galvez-ot.pdf>`_]
+.. raw:: html
 
-   Cartografía anexa (actualizada a marzo de 2016):
+   <div class="alert alert-light col-lg-4 float-right">
 
-   - `Clasificación de usos del suelo </ot/mapa-usos.pdf>`_
-   - `Red de agua corriente </ot/mar2016-agua.pdf>`_
-   - `Red cloacal </ot/mar2016-cloacas.pdf>`_
-   - `Red de gas natural </ot/mar2016-gas.pdf>`_
-   - `Red vial </ot/mar2016-pavim.pdf>`_ (pavimento y cordón cuneta)
+**El Ordenamiento Territorial de Gálvez** [`PDF </ot/galvez-ot.pdf>`_]
+
+Cartografía anexa (actualizada a marzo de 2016):
+
+- `Clasificación de usos del suelo </ot/mapa-usos.pdf>`_
+- `Red de agua corriente </ot/mar2016-agua.pdf>`_
+- `Red cloacal </ot/mar2016-cloacas.pdf>`_
+- `Red de gas natural </ot/mar2016-gas.pdf>`_
+- `Red vial </ot/mar2016-pavim.pdf>`_ (pavimento y cordón cuneta)
+
+.. raw:: html
+
+   </div>
 
 .. class:: lead
 

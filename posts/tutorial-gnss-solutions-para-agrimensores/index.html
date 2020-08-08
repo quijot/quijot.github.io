@@ -6,12 +6,14 @@
 <meta name="description" content="Tutorial de GNSS Solutions para Agrimensores">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tutorial de GNSS Solutions™ para Agrimensores | Santiago Pestarini</title>
+<link rel="preload" href="../../assets/css/all-nocdn.css" as="style">
+<link rel="preload" href="../../assets/fonts/open-sans-v17-latin-regular.woff2" as="font" crossorigin type="font/woff2">
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="es" href="../../rss.xml">
 <link rel="canonical" href="https://quijot.github.io/posts/tutorial-gnss-solutions-para-agrimensores/">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Santiago Pestarini">
+<meta name="author" content="Santiago Pestarini">
 <link rel="next" href="../la-medida/" title="La medida" type="text/html">
 <meta property="og:site_name" content="Santiago Pestarini">
 <meta property="og:title" content="Tutorial de GNSS Solutions™ para Agrimensores">
@@ -93,14 +95,8 @@ navbar-dark bg-dark
             <a href="." rel="bookmark">
             <time class="published dt-published" datetime="2012-07-24T11:00:00Z" itemprop="datePublished" title="2012-07-24 11:00">2012-07-24 11:00</time></a>
             </p>
-                <p class="commentline">
-        
-    <a href="#disqus_thread" data-disqus-identifier="cache/posts/tutorial-gnss-solutions.html">Comentarios</a>
-
-
             
-        </p>
-<p class="sourceline"><a href="index.txt" class="sourcelink">Código fuente</a></p>
+        <p class="sourceline"><a href="index.txt" class="sourcelink">Código fuente</a></p>
 
         </div>
         
@@ -150,19 +146,19 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <div class="section" id="adjuntos-con-este-tutorial">
 <h2><a class="toc-backref" href="#id3">Adjuntos con este tutorial</a></h2>
 <p>Se provee una plantilla para cada trabajo con la estructura de carpetas donde ordenar los archivos de observaciones, cad, etc. La misma se muestra a continuación. Es una buena costumbre copiarla en la carpeta de proyectos del GNSS Solutions, generalmente es</p>
-<pre class="code text"><a name="rest_code_ba84fcf79fa14a52901982fec730755b-1"></a>C:\Mis Proyectos
+<pre class="code text"><a name="rest_code_193b534c99354d48bbccf14569bf0775-1"></a>C:\Mis Proyectos
 </pre>
 <p>El archivo <em>leer.txt</em> tiene una explicación de para qué se destina cada carpeta.</p>
-<pre class="code text"><a name="rest_code_4e457becdab84004bf9ccdc7d7322596-1"></a>_plantilla\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-2"></a>  cad\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-3"></a>  coord\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-4"></a>  mdt\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-5"></a>  observ\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-6"></a>    base\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-7"></a>    ep\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-8"></a>    remoto\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-9"></a>    rinex\
-<a name="rest_code_4e457becdab84004bf9ccdc7d7322596-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_8026cd94f3644267aa6db2483dfe2979-1"></a>_plantilla\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-2"></a>  cad\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-3"></a>  coord\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-4"></a>  mdt\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-5"></a>  observ\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-6"></a>    base\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-7"></a>    ep\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-8"></a>    remoto\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-9"></a>    rinex\
+<a name="rest_code_8026cd94f3644267aa6db2483dfe2979-10"></a>  leer.txt
 </pre>
 </div>
 <div class="section" id="relevamiento-georreferenciado">
@@ -176,16 +172,16 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <li><p>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</p></li>
 <li><p>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo</em>. Deberá quedar así:</p></li>
 </ol>
-<pre class="code text"><a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-1"></a>C:\Mis Proyectos\Trabajo\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-2"></a>  cad\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-3"></a>  coord\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-4"></a>  mdt\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-5"></a>  observ\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-6"></a>    base\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-7"></a>    ep\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-8"></a>    remoto\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-9"></a>    rinex\
-<a name="rest_code_cbcf1c5cc44b41b48444f6957e6a2a48-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-1"></a>C:\Mis Proyectos\Trabajo\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-2"></a>  cad\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-3"></a>  coord\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-4"></a>  mdt\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-5"></a>  observ\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-6"></a>    base\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-7"></a>    ep\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-8"></a>    remoto\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-9"></a>    rinex\
+<a name="rest_code_9a1eba0e8ba2484fa879945e5e158b61-10"></a>  leer.txt
 </pre>
 <ol class="arabic" start="6">
 <li><p>Descargue los archivos del receptor base y guarde una copia de ellos en <em>Trabajo\observ\base</em>.</p></li>
@@ -220,16 +216,16 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <li><p>Paso siguiente le pedirá los archivos de observaciones. Deje el programa a la espera, antes deberá cumplir otros pasos que se explican a continuación.</p></li>
 <li><p>Copie la estructura de carpetas de la plantilla dentro de la carpeta del nuevo proyecto <em>Trabajo2</em>. Deberá quedar así:</p></li>
 </ol>
-<pre class="code text"><a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-1"></a>C:\Mis Proyectos\Trabajo2\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-2"></a>  cad\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-3"></a>  coord\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-4"></a>  mdt\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-5"></a>  observ\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-6"></a>    base\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-7"></a>    ep\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-8"></a>    remoto\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-9"></a>    rinex\
-<a name="rest_code_79dd8ce88fd4455bb1ad05f1dd57e885-10"></a>  leer.txt
+<pre class="code text"><a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-1"></a>C:\Mis Proyectos\Trabajo2\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-2"></a>  cad\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-3"></a>  coord\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-4"></a>  mdt\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-5"></a>  observ\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-6"></a>    base\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-7"></a>    ep\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-8"></a>    remoto\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-9"></a>    rinex\
+<a name="rest_code_b6c25d14fb874f528ea1147eb30d9aa7-10"></a>  leer.txt
 </pre>
 <ol class="arabic simple" start="5">
 <li><p>Descargue los archivos de los receptores base y remoto y guarde una copia de ellos en <em>Trabajo\observ\base</em> y <em>Trabajo\observ\remoto</em>.</p></li>
@@ -317,29 +313,7 @@ El humildísimo objetivo de este tutorial es dar algunas recomendaciones que pue
 <li class="next">
                 <a href="../la-medida/" rel="next" title="La medida">Siguiente publicación</a>
             </li>
-        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
-        
-        
-        <div id="disqus_thread"></div>
-        <script>
-        var disqus_shortname ="quijot",
-            disqus_url="https://quijot.github.io/posts/tutorial-gnss-solutions-para-agrimensores/",
-        disqus_title="Tutorial de GNSS Solutions\u2122 para Agrimensores",
-        disqus_identifier="cache/posts/tutorial-gnss-solutions.html",
-        disqus_config = function () {
-            this.language = "es_ES";
-        };
-        (function() {
-            var dsq = document.createElement('script'); dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-</noscript>
-    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-        </section></article><script>var disqus_shortname="quijot";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer">
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
             Contents © 2020         <a href="mailto:santiago@pestarini.com.ar">Santiago Pestarini</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a>
