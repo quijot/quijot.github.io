@@ -1,7 +1,7 @@
 .. title: La nueba ortografía
 .. slug: nueba-ortografia
 .. date: 2016-11-16 13:00:00 UTC-03:00
-.. tags: ortografía, Karina Galperin, TEDxRiodelaPlata
+.. tags: ortografía, Karina Galperin, TEDxRiodelaPlata, draft
 .. category:
 .. link:
 .. description: Corrector para la "nueba ortografía".

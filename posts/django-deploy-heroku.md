@@ -1,7 +1,7 @@
 .. title: Deploy de un proyecto Django en heroku
 .. slug: django-to-heroku
 .. date: 2020-06-06 16:00:00 UTC-03:00
-.. tags: code, python, django, deploy, heroku
+.. tags: code, python, django, deploy, heroku, draft
 .. category: 
 .. link: 
 .. description: Cómo deployar un proyecto Django a heroku
