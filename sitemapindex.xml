@@ -10,18 +10,6 @@
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://quijot.github.io/categories/code.xml</loc>
-  <lastmod>2020-08-08T20:58:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://quijot.github.io/categories/deploy.xml</loc>
-  <lastmod>2020-08-08T20:58:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://quijot.github.io/categories/django.xml</loc>
-  <lastmod>2020-08-08T20:58:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://quijot.github.io/categories/enia.xml</loc>
   <lastmod>2020-08-08T23:26:00Z</lastmod>
  </sitemap>
@@ -40,14 +28,6 @@
  <sitemap>
   <loc>https://quijot.github.io/categories/gps.xml</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://quijot.github.io/categories/heroku.xml</loc>
-  <lastmod>2020-08-08T20:58:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://quijot.github.io/categories/karina-galperin.xml</loc>
-  <lastmod>2021-07-31T18:50:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/categories/legislacion.xml</loc>
@@ -74,10 +54,6 @@
   <lastmod>2020-08-08T23:26:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://quijot.github.io/categories/ortografia.xml</loc>
-  <lastmod>2021-07-31T18:50:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://quijot.github.io/categories/ppp.xml</loc>
   <lastmod>2020-08-08T23:26:00Z</lastmod>
  </sitemap>
@@ -86,28 +62,16 @@
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://quijot.github.io/categories/python.xml</loc>
-  <lastmod>2021-07-31T18:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://quijot.github.io/categories/scripts.xml</loc>
-  <lastmod>2020-08-08T23:04:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://quijot.github.io/categories/software.xml</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://quijot.github.io/categories/tedxriodelaplata.xml</loc>
-  <lastmod>2021-07-31T18:50:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://quijot.github.io/galleries/Pruebas%20Calculadora%20ITRF08-POSGAR07/rss.xml</loc>
-  <lastmod>2021-07-31T18:49:00Z</lastmod>
+  <lastmod>2021-07-31T19:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/galleries/rss.xml</loc>
-  <lastmod>2021-07-31T18:49:00Z</lastmod>
+  <lastmod>2021-07-31T19:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/rss.xml</loc>
@@ -115,6 +79,6 @@
  </sitemap>
  <sitemap>
   <loc>https://quijot.github.io/sitemap.xml</loc>
-  <lastmod>2021-07-31T18:50:00Z</lastmod>
+  <lastmod>2021-07-31T19:47:00Z</lastmod>
  </sitemap>
 </sitemapindex>
