@@ -139,12 +139,12 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", '<i class="fas fa-folder-open"></i> Archivo'),
-        ("/categories/", '<i class="fas fa-tags"></i> Etiquetas'),
-        ("/rss.xml", '<i class="fas fa-rss"></i> RSS'),
-        ("https://github.com/quijot/", '<i class="fab fa-github"></i> Proyectos'),
-        (f"mailto:{BLOG_EMAIL}?subject=Hola", '<i class="fas fa-envelope"></i> Contacto'),
-        ("/pages/about/", '<i class="fas fa-user"></i> Sobre mí'),
+        ("/archive.html", '<i class="fa fa-folder-open"></i> Archivo'),
+        ("/categories/", '<i class="fa fa-tags"></i> Etiquetas'),
+        ("/rss.xml", '<i class="fa fa-rss"></i> RSS'),
+        ("https://github.com/quijot/", '<i class="fa fa-github"></i> Proyectos'),
+        # (f"mailto:{BLOG_EMAIL}?subject=Hola", '<i class="fa fa-envelope"></i> Contacto'),
+        ("/pages/about/", '<i class="fa fa-user"></i> Sobre mí'),
     ),
 }
 

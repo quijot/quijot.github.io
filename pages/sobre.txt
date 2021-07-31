@@ -7,9 +7,19 @@
 .. description: 
 .. type: text
 
+.. raw:: html
+
+  <div class="alert alert-light col-lg-4 float-right">
+  <a href="https://www.facebook.com/santiago.pestarini/" title="Facebook"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i> /santiago.pestarini</a><br>
+  <a href="https://www.instagram.com/santipesta/" title="instagram"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> @santipesta</a><br>
+  <a href="https://www.linkedin.com/in/santiago-pestarini/" title="LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> /santiago-pestarini</a><br>
+  <a href="mailto:santiago@pestarini.com.ar" title="e-mail"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> santiago_at_pestarini.com.ar</a><br>
+  </div>
+
 Algunos de mis trabajos:
 
-- `Estudio de Agrimensura "Enrique A. Pestarini" <http://quijot.github.io/pestarini.com.ar/>`_
+- `Estudio de Agrimensura "Enrique A. Pestarini" <https://pestarini.com.ar/>`_
+- `Acta Digital <https://actadigital.com.ar/>`_
 - `GGSR - Grupo de Geodesia Satelital de Rosario <http://www.fceia.unr.edu.ar/gps/>`_
 
   - `Servicio PPP <http://www.fceia.unr.edu.ar/gps/ppp/>`_ |new|
