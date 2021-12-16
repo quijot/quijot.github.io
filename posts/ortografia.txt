@@ -1,7 +1,7 @@
 .. title: ¿Para ké sirbe la ortografía?
 .. slug: para-ke-sirbe-la-ortografia
 .. date: 2016-11-05 12:00:00 UTC-03:00
-.. tags: ortografía, scripts, python, Karina Galperin, TEDxRiodelaPlata, draft
+.. tags: ortografía, scripts, python, Karina Galperin, TEDxRiodelaPlata
 .. category:
 .. link:
 .. description: Corrector para la "nueba ortografía".
