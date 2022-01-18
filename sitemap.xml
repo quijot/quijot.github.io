@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://quijot.github.io/archive.html</loc>
-  <lastmod>2021-08-03T00:48:00Z</lastmod>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://quijot.github.io/calc/test/evolution/ALUM/</loc>
@@ -147,7 +147,7 @@
  </url>
  <url>
   <loc>https://quijot.github.io/categories/</loc>
-  <lastmod>2021-07-31T18:51:00Z</lastmod>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://quijot.github.io/categories/agrimensura/</loc>
@@ -174,6 +174,10 @@
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </url>
  <url>
+  <loc>https://quijot.github.io/categories/karina-galperin/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://quijot.github.io/categories/legislacion/</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </url>
@@ -198,6 +202,10 @@
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </url>
  <url>
+  <loc>https://quijot.github.io/categories/ortografia/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://quijot.github.io/categories/ppp/</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </url>
@@ -206,8 +214,20 @@
   <lastmod>2020-08-08T20:58:00Z</lastmod>
  </url>
  <url>
+  <loc>https://quijot.github.io/categories/python/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://quijot.github.io/categories/scripts/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://quijot.github.io/categories/software/</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://quijot.github.io/categories/tedxriodelaplata/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://quijot.github.io/galleries/</loc>
@@ -244,6 +264,14 @@
  <url>
   <loc>https://quijot.github.io/posts/limites-de-la-planta-urbana-de-galvez/</loc>
   <lastmod>2020-08-08T20:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://quijot.github.io/posts/nueba-ortografia/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://quijot.github.io/posts/para-ke-sirbe-la-ortografia/</loc>
+  <lastmod>2022-01-18T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://quijot.github.io/posts/tutorial-gnss-solutions-para-agrimensores/</loc>
