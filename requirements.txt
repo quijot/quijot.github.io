@@ -21,7 +21,7 @@ entrypoints==0.3
 ghp-import==2.0.1
 hsluv==5.0.2
 html5lib==1.1
-idna==3.2
+idna==3.15
 ipykernel==6.0.3
 ipython==7.26.0
 ipython-genutils==0.2.0
